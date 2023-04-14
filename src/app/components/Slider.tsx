@@ -92,6 +92,7 @@ const Slider: React.FC<ISliderProps> = () => {
 
             </Swiper>
             <Swiper
+                //@ts-ignore
                 onSwiper={setThumbsSwiper}
                 loop={true}
                 spaceBetween={10}
