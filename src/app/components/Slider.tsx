@@ -32,14 +32,14 @@ const Slider: React.FC<ISliderProps> = () => {
                 <SwiperSlide><img src="/photos/shomare5.jpg" /></SwiperSlide>
                 <SwiperSlide><img src="/photos/shomare6.jpg" /></SwiperSlide>
                 <SwiperSlide>
-                            <video width="60%" height="60%" autoPlay controls>
+                            <video width="60%" height="60%"  controls>
                                 <source src="/photos/shomare7.mp4" type="video/mp4" />
                             </video>
                 </SwiperSlide>
                 <SwiperSlide><img src="/photos/shomare8.jpg" /></SwiperSlide>
                 <SwiperSlide><img src="/photos/shomare9.jpg" /></SwiperSlide>
                 <SwiperSlide>
-                    <video width="60%" height="60%" controls autoPlay>
+                    <video width="60%" height="60%" controls >
                         <source src="/photos/shomare10.mp4" type="video/mp4" />
                     </video>
                 </SwiperSlide>
@@ -52,7 +52,7 @@ const Slider: React.FC<ISliderProps> = () => {
                 <SwiperSlide><img src="/photos/shomare17.jpg" /></SwiperSlide>
                 <SwiperSlide><img src="/photos/shomare18.png" /></SwiperSlide>
                 <SwiperSlide>
-                    <video width="60%" height="60%" controls autoPlay>
+                    <video width="60%" height="60%" controls >
                         <source src="/photos/shomare19.mp4" type="video/mp4" />
                     </video>
                 </SwiperSlide>
