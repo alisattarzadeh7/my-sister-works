@@ -15,14 +15,9 @@ interface ISliderProps {
 const Slider: React.FC<ISliderProps> = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
-
     return (
         <>
             <Swiper
-                // style={{
-                //     "--swiper-navigation-color": "#fff",
-                //     "--swiper-pagination-color": "#fff",
-                // }}
                 loop={true}
                 spaceBetween={10}
                 navigation={true}
