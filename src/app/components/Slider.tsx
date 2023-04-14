@@ -13,7 +13,7 @@ interface ISliderProps {
 }
 
 const Slider: React.FC<ISliderProps> = () => {
-    const [thumbsSwiper, setThumbsSwiper] = useState(null);
+    const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
 
     return (
         <>
